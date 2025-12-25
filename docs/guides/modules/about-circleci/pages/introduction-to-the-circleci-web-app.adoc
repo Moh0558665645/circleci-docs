@@ -66,7 +66,7 @@ From your organization home page you have access to org-level options. You can c
 
 **Projects**: Allows you to see all projects associated with your organization. Choose to follow or unfollow projects, as well as xref:getting-started:create-project.adoc[create/set up new projects].
 
-**Deploys**: Set up environment integrations to manage deployments for your projects. For full details of the deployments feature, see the xref:deploy:deploys-overview.adoc[Deploys overview] page.
+**Deploys**: Set up environment integrations to manage deployments for your projects. For full details of the deployments feature, see the xref:deploy:deployment-overview.adoc[Deployment overview] page.
 
 **Insights**: Provides you with time-series data overviews of credit usage, success rates, pipeline duration, and more. For full details of the Insights feature, see the xref:insights:insights.adoc[Using Insights] page.
 
@@ -153,14 +153,11 @@ The following settings are available in the project settings page. If you do not
 
 **Groups**: Provides a list of user groups that have been granted project-specific permissions. For more information, see the xref:permissions-authentication:manage-groups.adoc[Manage groups] page.
 
-**Pipelines**: Provides a list of pipelines that have been set up for the project, or the option to begin setting up pipelines if none exist.
+**Project Setup**: Provides a list of pipelines that have been set up for the project and their associated triggers. See xref:orchestrate:pipelines.adoc[Pipelines Overview and Setup] for more information. This page includes the option to begin setting up pipelines if none exist. The setup UI for schedule triggers is located either here or in the *Triggers* section (if available for your integration). To set up a xref:orchestrate:schedule-triggers.adoc[schedule trigger] you will define a timetable, parameter, and attribution to automatically run a pipeline when the criteria is met.
 
-**Triggers**: Depending on your integration type, the triggers page shows either:
+*Pipelines* and *Triggers*: These pages let you set up pipelines and triggers when using the GitLab, Bitbucket Cloud and Bitbucket Data Center integrations.
 
-* A list of configured xref:orchestrate:pipelines.adoc#pipelines-and-triggers[pipeline triggers]
-* Set up UI for scheduled pipelines if available for your integration. To set up a xref:orchestrate:scheduled-pipelines.adoc[scheduled pipeline] you will define a timetable, parameter, and attribution to automatically run a pipeline when the criteria is met.
-
-**Deploys**: A UI for managing and viewing deployments. Setup and manage environment integrations, setup components. For full information on the deploys feature, start with the xref:deploy:deploys-overview.adoc[Deploys overview] page.
+**Deploys**: A UI for managing and viewing deployments. Setup and manage environment integrations, setup components. For full information on the deploys feature, start with the xref:deploy:deployment-overview.adoc[Deployment overview] page.
 
 **Advanced**: Toggle options on and off for:
 
